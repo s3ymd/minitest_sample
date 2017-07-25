@@ -4,10 +4,14 @@
 $ bundle init
 ```
 
-`gem 'minitest'`を`Gemfile`に追加
+~~`gem 'minitest'`を`Gemfile`に追加~~
+bundle addコマンドが使える! (v1.15新機能)
+```
+$ bundle add minitest
+```
 
 ```
-$ bundle
+$ bundle # addの場合は不要
 $ mkdir lib
 $ mkdir test
 ```
